@@ -292,3 +292,4 @@ endif
 "crtl - backspace to delete world
 noremap! <C-BS> <C-w>
 noremap! <C-h> <C-w>
+map <C-c> "+y<CR>
