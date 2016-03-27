@@ -6,6 +6,8 @@ let $PATH = $PATH . ':' . expand("~/.local/bin")
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+Plugin 'derekwyatt/vim-scala'
+
 Plugin 'VundleVim/Vundle.vim'
 
 " Plugin 'nathanaelkane/vim-indent-guides'
@@ -293,3 +295,4 @@ endif
 noremap! <C-BS> <C-w>
 noremap! <C-h> <C-w>
 map <C-c> "+y<CR>
+set clipboard=unnamed
