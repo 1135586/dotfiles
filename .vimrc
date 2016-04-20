@@ -296,3 +296,7 @@ noremap! <C-BS> <C-w>
 noremap! <C-h> <C-w>
 map <C-c> "+y<CR>
 set clipboard=unnamed
+
+" use alt + left/right to switch between tabs
+nnoremap <A-Left> :tabprevious<CR>
+nnoremap <A-Right> :tabnext<CR>
